@@ -1,0 +1,885 @@
+{
+	"id": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+	"name": "Chui API - Public",
+	"description": "",
+	"order": [
+		"e590cffc-07c3-4e18-16c9-b548a583c0a6",
+		"f9582b56-1810-88b2-162e-6caecce4616e",
+		"cc414621-0a2c-c36a-745c-81bb6747a260",
+		"198d77ab-7df5-2fd6-a7ad-849b6ae752ca",
+		"533f0c73-486b-a9c6-74fd-6661a7e096ac",
+		"af0c8a02-9504-f698-7116-6f8265b7d859",
+		"666a3002-6e32-f75a-e3a8-6378718fe2e1",
+		"c08b51e4-889b-d761-71c8-705db6ccc885",
+		"f9a2b6a4-339a-9f86-33ba-1605cda7a1e0",
+		"46b0b0b6-5571-7115-5029-bc7c14eb7da6",
+		"7c34af6b-5dfc-16d1-19d3-fa20e4d4e1f9",
+		"f99a3a3b-6d01-8196-6241-e8f2229e3dbd",
+		"7ff99c4c-cd94-6d82-be4c-08ecc9b07865",
+		"9b2f04c4-eb0a-c666-a116-bb14fd5ea791",
+		"8be50a60-349e-39cb-60d8-e322df6d80e9",
+		"5ac03696-9691-fb62-f27b-49422070d32a",
+		"69720292-f9c2-d549-cef9-a38b6ce35d28",
+		"599e250e-379b-2fa5-daa4-42f9af43295f",
+		"52816c0c-a0eb-7209-391e-ae2954c5d701",
+		"8821051d-331c-4fcd-7861-c7734910fab8",
+		"a39c0465-50f3-ae1f-910a-420e79b01635",
+		"6a6975b4-c61b-f73b-006c-22a78db2556e",
+		"49e39aa5-a1f8-c9e2-925a-7289cd44fc45",
+		"b4d244f3-5b05-d4ea-f9f6-8181b145ccbb",
+		"da66abce-eee8-14b5-ebbe-394280cfb401",
+		"b382cb9e-c48e-600b-1274-cb36a5571555",
+		"a691c6ec-0296-388e-1a20-bcc4316364fc",
+		"76ef2b46-e6c0-1144-e8bb-89a68534c516"
+	],
+	"folders": [],
+	"timestamp": 1486397748324,
+	"owner": "901019",
+	"public": false,
+	"requests": [
+		{
+			"id": "198d77ab-7df5-2fd6-a7ad-849b6ae752ca",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6IjVRZTFIYmpOZ3hYRHRTUDNiM2JqcEUifQ.fH--hP3ltZcbYc56inenLFQ75qR6w1vdQbwE3jKinQU\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/device",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486070398805,
+			"name": "/device",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": [],
+			"rawModeData": "{\n    \"images\": [\"http://url.to/image.jpeg\"],\n    \"name\": \"My Key Holder\"\n}"
+		},
+		{
+			"id": "46b0b0b6-5571-7115-5029-bc7c14eb7da6",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWZyZXNoIjoiZDNDTTlEYU1CVXI5aDdaOWNLZkVpTiIsInVzZXIiOnsidXNlcl9pZCI6NTYyOTQ5OTUzNDIxMzEyMCwiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSJ9fQ.46krZV1Uo-EvFXSX_-FaAPeXgmOtpJz3KqFsNJVyULA\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/snapshot?keyholder=2771925f-c06f-4bb0-8061-67a04dc1f6ce",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486136486013,
+			"name": "/snapshot?keyholder={keyholder_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": [],
+			"rawModeData": "{\n    \"images\": [\"http://url.to/image.jpeg\"],\n    \"name\": \"My Key Holder\"\n}"
+		},
+		{
+			"id": "49e39aa5-a1f8-c9e2-925a-7289cd44fc45",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6Ijcwa2NNbjZKYUYwamVwQ09lZG1FSFcifQ.O02wSPZmOCPG0BizDkS65NNxWunsPCDI5lxtWYDWLeg\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/fir?id=c453e416-405e-4c1d-80d7-3d0b12f061dc",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "keyholder",
+					"value": "5910974510923776",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "http://lorempixel.com/240/320/people",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486158653958,
+			"name": "/fir?id={fir_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "52816c0c-a0eb-7209-391e-ae2954c5d701",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZyZXNoIjoiOFQ3UDNtazRlQ2lIQWxaU0xhbTBNMyIsInVzZXIiOnsidXNlcl9pZCI6NTYyOTQ5OTUzNDIxMzEyMCwiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSJ9fQ.7KPQEpwShQ7mmDIzNE8qTKsif0-ilOWucyx9cP9Ezec\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/access?device=08b31508-967b-420c-b4bf-d190e306d1e2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "device",
+					"value": "4644337115725824",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "keyholder",
+					"value": "4782875580825600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486156933669,
+			"name": "/access?device={device_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "533f0c73-486b-a9c6-74fd-6661a7e096ac",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6Ikk0M0JRQW42V2RvVDNGd242cE9TTFQifQ.J7SihAIwtUFy0mDHl6eDoOdcLlPY_OBHvA2aK3VQLQQ\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/device?id=08b31508-967b-420c-b4bf-d190e306d1e2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486070405716,
+			"name": "/device?id={device_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": [],
+			"rawModeData": "{\n    \"images\": [\"http://url.to/image.jpeg\"],\n    \"name\": \"My Key Holder\"\n}"
+		},
+		{
+			"id": "599e250e-379b-2fa5-daa4-42f9af43295f",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZyZXNoIjoiOFQ3UDNtazRlQ2lIQWxaU0xhbTBNMyIsInVzZXIiOnsidXNlcl9pZCI6NTYyOTQ5OTUzNDIxMzEyMCwiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSJ9fQ.7KPQEpwShQ7mmDIzNE8qTKsif0-ilOWucyx9cP9Ezec\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/access?id=b5d97af7-bbf4-4385-a72f-1213aa9cd854",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "device",
+					"value": "4644337115725824",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "keyholder",
+					"value": "4782875580825600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486156935891,
+			"name": "/access?id={access_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "5ac03696-9691-fb62-f27b-49422070d32a",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZyZXNoIjoiOFQ3UDNtazRlQ2lIQWxaU0xhbTBNMyIsInVzZXIiOnsidXNlcl9pZCI6NTYyOTQ5OTUzNDIxMzEyMCwiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSJ9fQ.7KPQEpwShQ7mmDIzNE8qTKsif0-ilOWucyx9cP9Ezec\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/access",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "device",
+					"value": "08b31508-967b-420c-b4bf-d190e306d1e2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "keyholder",
+					"value": "c91690f8-c5b2-4b00-b8aa-659eba5b7c7f",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486155691921,
+			"name": "/access",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "666a3002-6e32-f75a-e3a8-6378718fe2e1",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6IjVRZTFIYmpOZ3hYRHRTUDNiM2JqcEUifQ.fH--hP3ltZcbYc56inenLFQ75qR6w1vdQbwE3jKinQU\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/snapshot",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486133695884,
+			"name": "/snapshot",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": [],
+			"rawModeData": "{\n    \"images\": [\"http://url.to/image.jpeg\"],\n    \"name\": \"My Key Holder\"\n}"
+		},
+		{
+			"id": "69720292-f9c2-d549-cef9-a38b6ce35d28",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZyZXNoIjoiOFQ3UDNtazRlQ2lIQWxaU0xhbTBNMyIsInVzZXIiOnsidXNlcl9pZCI6NTYyOTQ5OTUzNDIxMzEyMCwiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSJ9fQ.7KPQEpwShQ7mmDIzNE8qTKsif0-ilOWucyx9cP9Ezec\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/access",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "device",
+					"value": "4644337115725824",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "keyholder",
+					"value": "4782875580825600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486156938718,
+			"name": "/access",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "6a6975b4-c61b-f73b-006c-22a78db2556e",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZyZXNoIjoiOFQ3UDNtazRlQ2lIQWxaU0xhbTBNMyIsInVzZXIiOnsidXNlcl9pZCI6NTYyOTQ5OTUzNDIxMzEyMCwiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSJ9fQ.7KPQEpwShQ7mmDIzNE8qTKsif0-ilOWucyx9cP9Ezec\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/fir",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "keyholder",
+					"value": "5910974510923776",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "http://lorempixel.com/240/320/people",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486158656012,
+			"name": "/fir",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "76ef2b46-e6c0-1144-e8bb-89a68534c516",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6Ikk0M0JRQW42V2RvVDNGd242cE9TTFQifQ.J7SihAIwtUFy0mDHl6eDoOdcLlPY_OBHvA2aK3VQLQQ\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/analytics",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "date",
+					"value": "2016-11-17",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "range",
+					"value": "day",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486395452211,
+			"name": "/analytics",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "7c34af6b-5dfc-16d1-19d3-fa20e4d4e1f9",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6Ikk0M0JRQW42V2RvVDNGd242cE9TTFQifQ.J7SihAIwtUFy0mDHl6eDoOdcLlPY_OBHvA2aK3VQLQQ\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/snapshot",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "id",
+					"value": "db372f4d-68a0-4448-926d-79d31bf5c8d9",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "keyholder",
+					"value": "2771925f-c06f-4bb0-8061-67a04dc1f6ce",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486136964476,
+			"name": "/snapshot",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "7ff99c4c-cd94-6d82-be4c-08ecc9b07865",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6IjVRZTFIYmpOZ3hYRHRTUDNiM2JqcEUifQ.fH--hP3ltZcbYc56inenLFQ75qR6w1vdQbwE3jKinQU\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/keyholder",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486143669453,
+			"name": "/keyholder",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": [],
+			"rawModeData": "{\n    \"images\": [\"http://url.to/image.jpeg\"],\n    \"name\": \"My Key Holder\"\n}"
+		},
+		{
+			"id": "8821051d-331c-4fcd-7861-c7734910fab8",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZyZXNoIjoiOFQ3UDNtazRlQ2lIQWxaU0xhbTBNMyIsInVzZXIiOnsidXNlcl9pZCI6NTYyOTQ5OTUzNDIxMzEyMCwiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSJ9fQ.7KPQEpwShQ7mmDIzNE8qTKsif0-ilOWucyx9cP9Ezec\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/access?keyholder=f0f4ceb1-7064-43e3-90c2-c4b4b0b067a2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "device",
+					"value": "4644337115725824",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "keyholder",
+					"value": "4782875580825600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486156931420,
+			"name": "/access?keyholder={keyholder_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "8be50a60-349e-39cb-60d8-e322df6d80e9",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6IjVRZTFIYmpOZ3hYRHRTUDNiM2JqcEUifQ.fH--hP3ltZcbYc56inenLFQ75qR6w1vdQbwE3jKinQU\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/keyholder",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "id",
+					"value": "f0f4ceb1-7064-43e3-90c2-c4b4b0b067a2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "My Updated Keyholder",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486144121452,
+			"name": "/keyholder",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "9b2f04c4-eb0a-c666-a116-bb14fd5ea791",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6IjVRZTFIYmpOZ3hYRHRTUDNiM2JqcEUifQ.fH--hP3ltZcbYc56inenLFQ75qR6w1vdQbwE3jKinQU\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/keyholder?id=f0f4ceb1-7064-43e3-90c2-c4b4b0b067a2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486143786228,
+			"name": "/keyholder?id={keyholder_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": [],
+			"rawModeData": "{\n    \"images\": [\"http://url.to/image.jpeg\"],\n    \"name\": \"My Key Holder\"\n}"
+		},
+		{
+			"id": "a39c0465-50f3-ae1f-910a-420e79b01635",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZyZXNoIjoiOFQ3UDNtazRlQ2lIQWxaU0xhbTBNMyIsInVzZXIiOnsidXNlcl9pZCI6NTYyOTQ5OTUzNDIxMzEyMCwiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSJ9fQ.7KPQEpwShQ7mmDIzNE8qTKsif0-ilOWucyx9cP9Ezec\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/access",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "id",
+					"value": "b5d97af7-bbf4-4385-a72f-1213aa9cd854",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486156929348,
+			"name": "/access",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "a691c6ec-0296-388e-1a20-bcc4316364fc",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6IkN2Q0VJZ25pUUNYb3l5YWtVc013ZlgifQ.WxpjLiB0NCN2ZIUYd_H1SX_9f6f6I1l89XQ_NPd614k\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/command",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "event",
+					"value": "unlock",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "device_id",
+					"value": "08b31508-967b-420c-b4bf-d190e306d1e2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486395104993,
+			"name": "/command – COMMAND",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "af0c8a02-9504-f698-7116-6f8265b7d859",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6Ikk0M0JRQW42V2RvVDNGd242cE9TTFQifQ.J7SihAIwtUFy0mDHl6eDoOdcLlPY_OBHvA2aK3VQLQQ\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/device",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "id",
+					"value": "08b31508-967b-420c-b4bf-d190e306d1e2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "fail_safe",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "My Updated Device",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nfc",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "notifications",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "relay_ip",
+					"value": "10.0.0.128",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "unlock_duration",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "video",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486131476629,
+			"name": "/device",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "b382cb9e-c48e-600b-1274-cb36a5571555",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7ImVtYWlsIjoibXlfdXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6IjNrRnNvempETnFabVJRV09iUzEzbDcifQ.2I9J8yNcNcrhsZugwQ8_yONW4ZkHqK1_VELC76SIK-o\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/log?device=08b31508-967b-420c-b4bf-d190e306d1e2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "device",
+					"value": "4644337115725824",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "keyholder",
+					"value": "4782875580825600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486394331435,
+			"name": "/log?device={device_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "b4d244f3-5b05-d4ea-f9f6-8181b145ccbb",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6Ijcwa2NNbjZKYUYwamVwQ09lZG1FSFcifQ.O02wSPZmOCPG0BizDkS65NNxWunsPCDI5lxtWYDWLeg\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/fir?keyholder=f0f4ceb1-7064-43e3-90c2-c4b4b0b067a2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "keyholder",
+					"value": "5910974510923776",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "http://lorempixel.com/240/320/people",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486158651720,
+			"name": "/fir?keyholder={keyholder_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "c08b51e4-889b-d761-71c8-705db6ccc885",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6Ikk0M0JRQW42V2RvVDNGd242cE9TTFQifQ.J7SihAIwtUFy0mDHl6eDoOdcLlPY_OBHvA2aK3VQLQQ\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/snapshot?id=db372f4d-68a0-4448-926d-79d31bf5c8d9",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486135119149,
+			"name": "/snapshot?id={snapshot_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": [],
+			"rawModeData": "{\n    \"images\": [\"http://url.to/image.jpeg\"],\n    \"name\": \"My Key Holder\"\n}"
+		},
+		{
+			"id": "cc414621-0a2c-c36a-745c-81bb6747a260",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWZyZXNoIjoiUTlQOXZpYUYzTEd2TjVqaGxuRFdpYiIsInVzZXIiOnsiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSIsInVzZXJfaWQiOjU2Mjk0OTk1MzQyMTMxMjB9LCJleHAiOjE0ODYwNTg2NTkuMH0.hpvmBDEamagM6Np0YlqBETsmt4bhq4Qto7aErG7veso\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/token",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "refresh",
+					"value": "Q9P9viaF3LGvN5jhlnDWib",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486059135912,
+			"name": "/token – REFRESH",
+			"description": "Refresh token",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "da66abce-eee8-14b5-ebbe-394280cfb401",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6Ijcwa2NNbjZKYUYwamVwQ09lZG1FSFcifQ.O02wSPZmOCPG0BizDkS65NNxWunsPCDI5lxtWYDWLeg\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/fir?device=08b31508-967b-420c-b4bf-d190e306d1e2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "keyholder",
+					"value": "5910974510923776",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "http://lorempixel.com/240/320/people",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486158648968,
+			"name": "/fir?device={device_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "e590cffc-07c3-4e18-16c9-b548a583c0a6",
+			"headers": "",
+			"url": "https://chui-web-app.appspot.com/api/token",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "user@email.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "password",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1479410216707,
+			"name": "/token – LOGIN",
+			"description": "Log in",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "f9582b56-1810-88b2-162e-6caecce4616e",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWZyZXNoIjoiUTlQOXZpYUYzTEd2TjVqaGxuRFdpYiIsInVzZXIiOnsiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSIsInVzZXJfaWQiOjU2Mjk0OTk1MzQyMTMxMjB9LCJleHAiOjE0ODYwNTg2NTkuMH0.hpvmBDEamagM6Np0YlqBETsmt4bhq4Qto7aErG7veso\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/token",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486059145532,
+			"name": "/token",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": [],
+			"rawModeData": "{\n    \"images\": [\"http://url.to/image.jpeg\"],\n    \"name\": \"My Key Holder\"\n}"
+		},
+		{
+			"id": "f99a3a3b-6d01-8196-6241-e8f2229e3dbd",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJ1c2VyX2lkIjo1NjI5NDk5NTM0MjEzMTIwfSwicmVmcmVzaCI6IkN2Q0VJZ25pUUNYb3l5YWtVc013ZlgifQ.WxpjLiB0NCN2ZIUYd_H1SX_9f6f6I1l89XQ_NPd614k\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/keyholder",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "My Keyholder",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "snapshot",
+					"value": "db372f4d-68a0-4448-926d-79d31bf5c8d9",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486140407343,
+			"name": "/keyholder – ENROLL",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": []
+		},
+		{
+			"id": "f9a2b6a4-339a-9f86-33ba-1605cda7a1e0",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWZyZXNoIjoiZDNDTTlEYU1CVXI5aDdaOWNLZkVpTiIsInVzZXIiOnsidXNlcl9pZCI6NTYyOTQ5OTUzNDIxMzEyMCwiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSJ9fQ.46krZV1Uo-EvFXSX_-FaAPeXgmOtpJz3KqFsNJVyULA\napi-key: l0qo3d:x0SM89_8^8vgm!61_68kz2Z0Q\n",
+			"url": "https://chui-web-app.appspot.com/api/snapshot?device=08b31508-967b-420c-b4bf-d190e306d1e2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1486135156432,
+			"name": "/snapshot?device={device_id}",
+			"description": "",
+			"collectionId": "ce51b3b1-7b2a-83c5-145a-8f88a5e73cb4",
+			"responses": [],
+			"rawModeData": "{\n    \"images\": [\"http://url.to/image.jpeg\"],\n    \"name\": \"My Key Holder\"\n}"
+		}
+	]
+}
